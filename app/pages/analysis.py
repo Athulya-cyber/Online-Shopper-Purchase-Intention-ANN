@@ -7,7 +7,8 @@ import streamlit as st
 
 
 # Project root is the parent directory of the Pages folder.
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
 DATA_PATH = PROJECT_ROOT / "Data" / "online_shoppers_intention_cleaned.csv"
 
 
