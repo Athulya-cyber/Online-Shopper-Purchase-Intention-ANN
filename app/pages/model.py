@@ -6,9 +6,8 @@ import streamlit as st
 from tensorflow.keras.models import load_model
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 MODEL_DIR = PROJECT_ROOT / "Model"
-
 
 @st.cache_resource
 def load_prediction_assets():
